@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "dirtmuncher",
+	"version": "${version}",
+	"name": "Dirt Muncher",
+	"description": "Adds the Dirt Muncher: a hostile mob shaped like a dirt block that hunts and eats pigs.",
+	"authors": [
+		"You"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/dirtmuncher/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dirtmuncher.mod.DirtMuncherMod"
+		],
+		"client": [
+			"net.dirtmuncher.mod.client.DirtMuncherModClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
